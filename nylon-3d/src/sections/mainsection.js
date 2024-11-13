@@ -1,15 +1,15 @@
 import './mainsection.css';
-import bcgr from '../img/main.png';
 
-
-function mainSection() {
+function Mainsection() {
     return (
-        <section className='section'>
-            <div className='container main_container'>
-            <img src={bcgr} alt='img' className='main_bc'></img>
-            </div>
-        </section>
+        <>
+            <section className='section'>
+                <div className='container main_container'>
+                    <h1>ГАВНО ВОНЮЧЕЕ</h1>
+                </div>
+            </section>
+        </>
     );
   }
   
-  export default mainSection;
+  export default Mainsection;
