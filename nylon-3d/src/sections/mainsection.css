@@ -1,12 +1,37 @@
 .section {
     width: 100%;
 }
-.mainContainer {
-    background-repeat: no-repeat; 
-    background-position: center;
+.container {
+    width: 100%;
 }
-.mainBc {
+.mainContainer {
+    height: 100vh;
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+.mainContainer::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(63,94,251,0.5) 0%, rgba(86,112,203,0.5) 60%, rgba(0,0,0,0.7) 100%);
+
+}
+.mainSlider {
+    width: 50%;
+}
+.mainTitle {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.mainTitle h1{
+    color: #fff;
+    font-size: calc( (100vw - 480px)/(1280 - 480) * (24 - 16) + 60px);
 }
