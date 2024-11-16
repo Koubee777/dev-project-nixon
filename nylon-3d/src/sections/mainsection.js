@@ -4,7 +4,6 @@ import mainBack from './img/main.png'
 
 function Mainsection() {
     return (
-        <>
             <section className='section'>    
                     <div className='container mainContainer' style={{ backgroundImage: `url(${mainBack})`}}>
                         <div className='mainSlider'>
@@ -16,7 +15,6 @@ function Mainsection() {
                     </div>
                     
             </section>
-        </>
     );
   }
   
