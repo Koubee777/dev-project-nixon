@@ -5,14 +5,15 @@ header {
     background-color: #022140;
 }
 .main_menu {
+    gap: 30px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     width: 100%;
+    margin-right: 100px;
 }
 .main_menu li{
     display: flex;
     align-items: center;
-    margin: 0px 10px;
 }
 header a{
     color: #fff;

@@ -1,0 +1,12 @@
+.section {
+    width: 100%;
+}
+.mainContainer {
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+.mainBc {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
