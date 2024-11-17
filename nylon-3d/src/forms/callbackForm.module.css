@@ -1,0 +1,32 @@
+.callbackForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+    min-width: 300px;
+    padding: 40px;
+    background-color: #0000004a;
+    border-radius: 10px;
+}
+.formInput {
+    background-color: #0000004a;
+    border: none;
+    outline: none;
+    color: white;
+    height: 20px;
+    border-radius: 5px;
+
+}
+.buttonInput {
+    color: #ffffff;
+    background-color: #022140;;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    transition: .2s;
+}
+.buttonInput:hover {
+    transform: translateY(-2px);
+}
+    
