@@ -1,16 +1,21 @@
 import styles from './callbackForm.module.css';
 import { useState } from 'react';
-
+import { useDebugValue } from 'react';
 
 
 function CallbackForm() {
+
+  
     const [count, setCount] = useState(0);
     const increment = () => {
       setCount((currentValue) => currentValue + 1);
-
+      
     }
+    
+    useDebugValue({increment}>10? 'LOH' : 'NELOH');
 
 
+     
 
     return (
       <form action="" className={styles.callbackForm}>
