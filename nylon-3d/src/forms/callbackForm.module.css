@@ -4,6 +4,7 @@
     gap: 20px;
     justify-content: flex-start;
     min-width: 300px;
+    max-width: 400px;
     padding: 40px;
     background-color: #0000004a;
     border-radius: 10px;
@@ -17,6 +18,9 @@
     border-radius: 5px;
 
 }
+.formInputNone {
+    display: none;
+}
 .buttonInput {
     color: #ffffff;
     background-color: #022140;;
@@ -27,6 +31,7 @@
     transition: .2s;
 }
 .buttonInput:hover {
+    cursor: pointer;
     transform: translateY(-2px);
 }
     
