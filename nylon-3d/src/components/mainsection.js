@@ -9,6 +9,10 @@ import { Pagination } from 'swiper/modules';
 function Mainsection() {
     return (
             <section className='section mainSection' style={{ backgroundImage: `url(${mainBack})`}}>    
+                    
+                    <div className='mainTitle'>
+                            <h1>Студия 3D печати<br/>NYLON</h1>
+                    </div>
                     <div className='container mainContainer' >
                         <div className='mainSlider'>
                             <Swiper
@@ -45,11 +49,9 @@ function Mainsection() {
                                     </SwiperSlide>
                             </Swiper>
                         </div>
-                        <div className='mainTitle'>
-                            <h1>Студия 3D печати<br/>NYLON</h1>
+                       
                             <CallbackForm />
                         </div>
-                    </div>
                     
             </section>
     );
