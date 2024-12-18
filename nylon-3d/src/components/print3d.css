@@ -1,0 +1,22 @@
+.print_container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 80px 80px 80px ;
+}
+.print_info {
+    max-width: 600px;
+    flex: 1 1 50%;
+}
+.print_title {
+    font-size: 48px;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+.print_minititle {
+    font-size: 28px;
+    font-weight: 600;
+}

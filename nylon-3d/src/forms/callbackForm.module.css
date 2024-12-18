@@ -16,7 +16,8 @@
     border: none;
     outline: none;
     color: white;
-    height: 20px;
+    height: 30px;
+    padding-left: 10px;
     border-radius: 5px;
 
 }
@@ -36,4 +37,12 @@
     cursor: pointer;
     transform: translateY(-2px);
 }
-    
+@media (max-width: 600px) {
+    .callbackForm {
+        height: max-content;
+        gap: 5px;
+    }
+
+
+
+}

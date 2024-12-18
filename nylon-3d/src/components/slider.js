@@ -4,7 +4,7 @@ import CallbackForm from '../forms/callbackForm';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { Pagination } from 'swiper/modules';
+import { Pagination, Autoplay } from 'swiper/modules';
 i
 
 function Mainsection() {
@@ -13,16 +13,16 @@ function Mainsection() {
                     <div className='container mainContainer' >
                         <div className='mainSlider'>
                             <Swiper
-                                direction={'vertical'}
+                                direction={'horizontal'}
                                 autoplay={{
-                                    delay: 2500,
+                                    delay: 250,
                                     disableOnInteraction: false,
                                   }}
                                 pagination={{
-                                clickable: true,
+                                    clickable: true,
                                 }}
-                                modules={[Pagination]}
-                                className="mySwiper"
+                                modules={[Pagination, Autoplay]}
+                                    className="mySwiper"
                             >
                                 <SwiperSlide className='mineSlide'>
                                     <img src=''></img>

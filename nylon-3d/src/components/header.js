@@ -1,10 +1,12 @@
 import './header.css';
-
-
-function header() {
+import { useState } from 'react';
+function Header() {
+    const [isOpen, setOpen] = useState();
     return (
       <header>
-            <ul className='main_menu'>
+         <div className='container'>
+            <button className={`button_menu ${isOpen ? "active_button" : ""}`} onClick={() => setOpen(!isOpen)}><div></div><div></div><div></div></button>
+            <ul className={`main_menu ${isOpen ? "active_menu" : ""}`} >
                 <li>
                     <a href="/.">Главная</a>
                 </li>
@@ -18,8 +20,9 @@ function header() {
                     <a href="/.">Как купить</a>
                 </li>
             </ul>
+        </div>
       </header>
+      
     );
   }
-  
-  export default header;
+  export default Header;

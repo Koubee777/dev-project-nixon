@@ -4,11 +4,13 @@ import './index.css';
 import Header from './components/header';
 import reportWebVitals from './reportWebVitals';
 import Mainsection from './components/mainsection';
+import Print from './components/print3d';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header />
     <Mainsection />
+    <Print />
   </React.StrictMode>
 );
 
